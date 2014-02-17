@@ -37,7 +37,7 @@ s.waitForBoot({
 		// MasterOut SynthDef
 		SynthDef(\amp, {arg inbus=0, amp = 0.1, lag = 0.1;
 			var in = In.ar(inbus, 1) * Lag.kr(amp, lag);
-			ReplaceOut.ar(inbus, snd);
+			ReplaceOut.ar(inbus, in);
 		}).add;
 
 

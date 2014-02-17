@@ -42,9 +42,9 @@ MIDIdef.cc(\test2, {arg ...args; args.postln});
 ().play;
 
 // Load stuff
-"/media/BTR/Music/SuperCollider/Panela_de_Pressao/Panela_de_Pressao_v4_MIDI.scd".load;
-"/media/BTR/Music/SuperCollider/Panela_de_Pressao/Panela_de_Pressao_v4_Patterns.scd".load;
-"/media/BTR/Music/SuperCollider/Panela_de_Pressao/Panela_de_Pressao_v4_SynthDefs_SCLOrk_MONO.scd".load;
+"/home/lork/Music/SuperCollider/Panela-de-Pressao/Panela_de_Pressao_v4_MIDI.scd".load;
+"/home/lork/Music/SuperCollider/Panela-de-Pressao/Panela_de_Pressao_v4_Patterns.scd".load;
+"/home/lork/Music/SuperCollider/Panela-de-Pressao/Panela_de_Pressao_v4_SynthDefs_SCLOrk_MONO.scd".load;
 
 // Go!
 
